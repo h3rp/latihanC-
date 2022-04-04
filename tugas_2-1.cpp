@@ -32,6 +32,7 @@ int main(){
      {
         total[i] = jumlah[i] * harga[i];
      }
+
      for (int i = 0; i < ukuran; i++)
      {
          total_pembelian = total_pembelian + total[i];
@@ -41,7 +42,7 @@ int main(){
     cout << "Kode" << setw(5) << "Nama" << setw(7) << "Jumlah" << setw(7) <<"Harga" << setw(7) <<"Total" << endl;
     for (int i = 0; i < ukuran; i++)
     {
-        cout << kode[i] << setw(7) << nama[i] << setw(7) << jumlah[i] << setw(7) << harga[i] << setw(13) << total << endl;
+        cout << kode[i] << setw(7) << nama[i] << setw(7) << jumlah[i] << setw(7) << harga[i] << setw(13) << total[i] << endl;
     }
     cout << "Jumlah Item adalah : " << ukuran << endl;
     cout << "Total Pembelian adalah : " << total_pembelian << endl;
