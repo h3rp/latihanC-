@@ -273,7 +273,7 @@ int main() {
             	break;
             case 9:
             	clear();
-            	break();
+            	break;
         }
         // getch();
     } while(pil!=10); //ulang selama pil tidak sama dengan 9
