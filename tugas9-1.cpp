@@ -38,6 +38,7 @@ int totalNode() {
         cur = cur->next;
         total++;
     } while (cur != head);
+    cout << total;
     return total;
 }
 
